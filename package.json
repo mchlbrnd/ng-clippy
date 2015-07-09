@@ -1,0 +1,28 @@
+{
+  "name": "ng-clippy",
+  "author": "Michael Wolbert",
+  "version": "0.0.1",
+  "main": "dist/ng-clippy.js",
+  "devDependencies": {
+    "angular": "^1.4.1",
+    "angular-load": "^0.2.0",
+    "browser-sync": "^2.6.4",
+    "browserify": "^9.0.8",
+    "browserify-ngannotate": "^0.7.1",
+    "browserify-shim": "^3.8.5",
+    "gulp": "^3.8.11",
+    "gulp-rename": "^1.2.2",
+    "jquery": "^2.1.4",
+    "lodash": "^3.7.0",
+    "run-sequence": "^1.0.2",
+    "uglifyify": "^3.0.1",
+    "vinyl": "^0.4.6",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.1.1",
+    "yargs": "^3.7.2"
+  },
+  "browser": {},
+  "browserify-shim": {
+    "jquery": "$"
+  }
+}

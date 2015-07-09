@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="ngClippyExample">
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ngClippy</title>
+</head>
+<body>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="angular/angular.min.js"></script>
+    <script src="ng-clippy.js"></script>
+    <script>
+        angular.module('ngClippyExample', ['ngClippy']);
+    </script>
+
+    <links>
+        <move-to x="100" y="100" delay="1000"/>
+        <gesture-at x="100" y="100" delay="1000"/>
+        <gesture-at x="10" y="10" delay="1000"/>
+        <play animation="'searching'" delay="1000"/>
+        <speak text="'Hello World!'" delay="1000"/>
+        <speak text="'All is fine!'" delay="2000"/>
+        <speak text="'Sure?'" delay="5000"/>
+    </links>
+</body>
+</html>
